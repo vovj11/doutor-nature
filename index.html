@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doutor Nature</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header class="menu">
+    <div>
+      <a class="menu-logo" href="#"><img src="img/logo_Doutor-Nature.svg" alt="Logo Doutor Nature"></a>
+    </div>
+  </header>
+
+  <main class="intro">
+    <h1>O jeito certo de hidratar a pele<br>tipo "crepe"</h1>
+    <p>E porque a indústria de cosméticos nunca falou sobre isso...</p>
+    <iframe class="embed-responsive-item" width="750" height="400" src="https://www.youtube.com/embed/5lDhkpEGgj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="intro-seta">
+      <a href="#"><img src="img/seta-baixo.svg" alt="Seta pra baixo"></a>
+    </div>
+  </main>
+
+  <section class="alternativa container">
+    <div class="row">
+      <h1>Porque cremes não hidratam<br>esse tipo de pele "crepe"?</h1>
+      <h5>Descubra uma alternativa mais eficiente</h5>
+
+      <div class="alternativa-info col-sm-8">
+        <p>Em minhas pesquisas descobri que <span class="negrito">cremes hidratantes comuns, não funcionam em peles finas e ressecadas</span>, com aparência amassada, que popularmente são chamadas de "pele crepe".</p>
+        <p>A razão disso é <span class="negrito">porque existem pequenas rachaduras na superfície desse tipo de pele</span>, por onde a àgua vaza. Dessa forma, <span class="negrito">não adianta insistir aplicando cremes hidratantes</span>, pois sua pele não vai reter essa hidratação.</p>
+        <p>Já quando você ingere alguns compostos específicos, e passa a hidratar sua pele de dentro para fora, <span class="negrito">aí o jogo vira a seu favor. Active Anti Ox</span> é uma fórmula que desenvolvi junto de minha equipe, para ajudar a hidratar e recuperar a sua pele <span class="negrito">agindo de dentro pra fora.</span></p>
+      </div>
+
+      <img class="alternativa-img col-sm-4" src="img/doutor-rafael.png" alt="Imagem Doutor Rafael">
+
+    </div>
+
+  </section>
+
+  <section class="oferta">
+    <div class="container">
+      <div class="row">
+        <div class="oferta-titulo">
+          <h4>Oferta única</h4>
+        </div>
+        <h1>Você não verá preço menor em outro lugar</h1>
+        <div class="cards col-sm-6">
+          <div class="oferta-cards-titulo">
+            <h5>Escolha seu pacote</h5>
+          </div>
+          <nav class="oferta-caixa">
+            <a class="">
+              <h2 class="numero-caixa">1</h2>
+              <h6>Caixa</h6>
+            </a>
+            <a class="ativar">
+              <h2 class="numero-caixa">3</h2>
+              <h6>Caixas</h6>
+            </a>
+            <a class=" ">
+              <h2 class="numero-caixa">6</h2>
+              <h6>Caixas</h6>
+            </a>
+          </nav>
+          <div class="oferta-preco">
+            <p class="preco-caixa" value="148.60">R$ 148,60 por caixa</p>
+            <p class="preco-economizado" value="136.20">Economize R$ 136,20</p>
+            <p class="preco-parcelado" value="49.99">Hoje: <span>12x</span> R$49,99</p>
+            <p class="preco-vista" value="445.80">ou R$ 445,80 à vista</p>
+            <div>
+              <a class="compra-btn" href="">Comprar Agora</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="cards cards-assine col-sm-6">
+          <div class="oferta-cards-titulo assine-titulo">
+            <img class="desconto" src="img/badge.png" alt="Ganhe 10% de desconto">
+
+            <h5>Assine e economize</h5>
+            <p>(Opcional)</p>
+          </div>
+          <div class="assine">
+            <ul class="assine-lista">
+              <li>
+                <img src="img/check-icon.png" alt="check icon">
+                <span>Desconto Máximo Aplicado</span>
+              </li>
+              <li>
+                <img src="img/check-icon.png" alt="check icon">
+                <span>Entrega Automática em sua Casa</span>
+              </li>
+              <li>
+                <img src="img/check-icon.png" alt="check icon">
+                <span>Menor Preço Garantido / Sem Reajustes</span>
+              </li>
+              <li>
+                <img src="img/check-icon.png" alt="check icon">
+                <span>Cancele quando quiser / Sem Taxas</span>
+              </li>
+            </ul>
+            <div>
+              <a class="assine-btn" onclick="mudarCheck()">
+                <div>
+                  <img class="assine-check" src="img/check-icon-mobile.png" alt="Botão assinar">
+                  <span><strong>SIM!</strong> Eu quero ser assinante e ganhar DESCONTO!</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="depoimento container">
+    <div class="row">
+      <div class="depoimento-titulo col-sm-12">
+        <h1>Se não notar resultados, sua<br> compra sai de graça</h1>
+        <h5>Sem perguntas, sem pegadinhas...</h5>
+      </div>
+      <div class="depoimento-garantia col-sm-12">
+        <img class="col-sm-3" src="img/selo-garantia.png" alt="30 dias garantia">
+        <div class="col-sm-9">
+          <p>Ao fazer o pedido de Active Anti Ox, <span class="negrito">você está coberto pela nossa garantia de satisfação.</span> Está é uma política que adotamos, e cumprimos à risca, que visa proteger nossos consumidores, para que eles possam experimentar nossas fórmulas <span class="negrito">livre de riscos.</span></p>
+          <p>Se após <span class="negrito">30 dias</span> você estiver completamente satisfeito/a, <span class="negrito">devolveremos seu sinheiro em forma de crédito,</span> para usar em qualquer outro produto da Doutor Nature - sem perguntas, sem burocracia.</p>
+        </div>
+
+      </div>
+      <div class="depoimento-titulo col-sm-12">
+        <h1>Veja alguns resultados do Active<br>Anti Ox*</h1>
+        <h5>Experimente e comece a hidratar sua pele de verdade</h5>
+      </div>
+      <div class="depoimento-resultado col-sm-12">
+        <div class="col-sm-5">
+          <img src="img/image7.jpg" alt="Resultado braços">
+          <img src="img/image9.jpg" alt="Resultado rosto">
+        </div>
+        <div class="col-sm-5">
+          <img src="img/image8.jpg" alt="Resultado rosto">
+
+          <img src="img/image10.jpg" alt="Resultado braços">
+        </div>
+      </div>
+      <div class="depoimento-observacao col-sm-12">
+        <p>*Somos honestos e transparentes com nossos clientes, os resultados podem variar de pessoas para pessoa, cada organismo é único e vai reagir aos compostos de forma diferente. Aproveite a nossa garantia incondicional, compre e avalie você mesmo os resultados.<br>Esta fórmula foi desenvolvida por médico e sua equipe de pesquisadores</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="duvida">
+    <div class="container">
+      <div class="row">
+        <h1 class="duvida-titulo">Tire suas dúvidas</h1>
+        <div id="duvida-perguntas" class="col-12" data-children=".pergunta">
+          <div class="pergunta">
+            <a class="lead" data-bs-toggle="collapse" href="#pergunta1" aria-expanded="true" aria-controls="pergunta1"><img class="plus-icon" src="img/plus.svg" alt="Icone plus">Do que é feito o Active Anti-OX</a>
+            <div id="pergunta1" class="collapse" data-bs-parent="#duvida-perguntas" role="tabpanel">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corporis molestias possimus eum cumque eos, a aliquam ratione modi! Laborum, itaque inventore nemo doloremque et corporis sed explicabo voluptatem libero.</p>
+            </div>
+          </div>
+
+          <div class="pergunta">
+            <a class="lead" data-bs-toggle="collapse" href="#pergunta2" aria-expanded="true" aria-controls="pergunta2"><img src="" alt=""><img class="plus-icon" src="img/plus.svg" alt="Icone plus">Como devo usar o Active Anti-OX</a>
+            <div id="pergunta2" class="collapse" data-bs-parent="#duvida-perguntas" role="tabpanel">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corporis molestias possimus eum cumque eos, a aliquam ratione modi! Laborum, itaque inventore nemo doloremque et corporis sed explicabo voluptatem libero.</p>
+            </div>
+          </div>
+          <div class="pergunta">
+            <a class="lead" data-bs-toggle="collapse" href="#pergunta3" aria-expanded="true" aria-controls="pergunta3"><img class="plus-icon" src="img/plus.svg" alt="Icone plus">Active Anti-OX tem contra-indicação?</a>
+            <div id="pergunta3" class="collapse" data-bs-parent="#duvida-perguntas" role="tabpanel">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corporis molestias possimus eum cumque eos, a aliquam ratione modi! Laborum, itaque inventore nemo doloremque et corporis sed explicabo voluptatem libero.</p>
+            </div>
+          </div>
+
+          <div class="pergunta">
+            <a class="lead" data-bs-toggle="collapse" href="#pergunta4" aria-expanded="true" aria-controls="pergunta4"><img src="" alt=""><img class="plus-icon" src="img/plus.svg" alt="Icone plus">Precisa de prescrição médica para comprar?</a>
+            <div id="pergunta4" class="collapse" data-bs-parent="#duvida-perguntas" role="tabpanel">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corporis molestias possimus eum cumque eos, a aliquam ratione modi! Laborum, itaque inventore nemo doloremque et corporis sed explicabo voluptatem libero.</p>
+            </div>
+          </div>
+          <div class="pergunta">
+            <a class="lead" data-bs-toggle="collapse" href="#pergunta5" aria-expanded="true" aria-controls="pergunta5"><img class="plus-icon" src="img/plus.svg" alt="Icone plus">E se Active Anti-OX não funcionar para mim?</a>
+            <div id="pergunta5" class="collapse" data-bs-parent="#duvida-perguntas" role="tabpanel">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corporis molestias possimus eum cumque eos, a aliquam ratione modi! Laborum, itaque inventore nemo doloremque et corporis sed explicabo voluptatem libero.</p>
+            </div>
+          </div>
+
+          <div class="pergunta">
+            <a class="lead" data-bs-toggle="collapse" href="#pergunta6" aria-expanded="true" aria-controls="pergunta6"><img src="" alt=""><img class="plus-icon" src="img/plus.svg" alt="Icone plus">Quando posso perceber resultados?</a>
+            <div id="pergunta6" class="collapse" data-bs-parent="#duvida-perguntas" role="tabpanel">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corporis molestias possimus eum cumque eos, a aliquam ratione modi! Laborum, itaque inventore nemo doloremque et corporis sed explicabo voluptatem libero.</p>
+            </div>
+          </div>
+          <div class="pergunta">
+            <a class="lead" data-bs-toggle="collapse" href="#pergunta7" aria-expanded="true" aria-controls="pergunta7"><img class="plus-icon" src="img/plus.svg" alt="Icone plus">Além do Vital 4k o que mais vou receber na minha compra?</a>
+            <div id="pergunta7" class="collapse" data-bs-parent="#duvida-perguntas" role="tabpanel">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corporis molestias possimus eum cumque eos, a aliquam ratione modi! Laborum, itaque inventore nemo doloremque et corporis sed explicabo voluptatem libero.</p>
+            </div>
+          </div>
+
+          <div class="pergunta">
+            <a class="lead" data-bs-toggle="collapse" href="#pergunta8" aria-expanded="true" aria-controls="pergunta8"><img src="" alt=""><img class="plus-icon" src="img/plus.svg" alt="Icone plus">Vocês tem uma garantia de satisfação?</a>
+            <div id="pergunta8" class="collapse" data-bs-parent="#duvida-perguntas" role="tabpanel">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corporis molestias possimus eum cumque eos, a aliquam ratione modi! Laborum, itaque inventore nemo doloremque et corporis sed explicabo voluptatem libero.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="beneficio container">
+    <div class="row">
+      <div class="beneficio-titulo">
+        <h1>O melhor suplemento para hidratar<br>sua pele</h1>
+        <h5>hidratação de verdade</h5>
+      </div>
+      <div class="beneficio-lista col-sm-6">
+        <p>Os ingredientes poderosos do Active Anti Ox trabalham juntos para:</p>
+        <ul>
+          <li>Devolver a firmeza na pele crepe</li>
+          <li>Preencher as rugas e rechaduras da superfície da pele</li>
+          <li>Reduzir linhas finas do rosto, pescoço e colo</li>
+          <li>Restabelecer o brilho natural da pele</li>
+          <li>Hidratando a pele, de dentro para fora</li>
+        </ul>
+      </div>
+      <div class="beneficio-img col-sm-6">
+        <img src="img/image11.jpg" alt="Remédio Active Anti-Ox">
+      </div>
+      <div class="cards col-sm-6">
+        <div class="oferta-cards-titulo">
+          <h5>Escolha seu pacote</h5>
+        </div>
+        <nav class="oferta-caixa">
+          <a class="">
+            <h2 class="numero-caixa">1</h2>
+            <h6>Caixa</h6>
+          </a>
+          <a class="ativar">
+            <h2 class="numero-caixa">3</h2>
+            <h6>Caixas</h6>
+          </a>
+          <a class=" ">
+            <h2 class="numero-caixa">6</h2>
+            <h6>Caixas</h6>
+          </a>
+        </nav>
+        <div class="oferta-preco">
+          <p class="preco-caixa" value="148.60">R$ 148,60 por caixa</p>
+          <p class="preco-economizado" value="136.20">Economize R$ 136,20</p>
+          <p class="preco-parcelado" value="49.99">Hoje: <span>12x</span> R$49,99</p>
+          <p class="preco-vista" value="445.80">ou R$ 445,80 à vista</p>
+          <div>
+            <a class="compra-btn" href="">Comprar Agora</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="cards cards-assine col-sm-6">
+        <div class="oferta-cards-titulo assine-titulo">
+          <img class="desconto" src="img/badge.png" alt="Ganhe 10% de desconto">
+
+          <h5>Assine e economize</h5>
+          <p>(Opcional)</p>
+        </div>
+        <div class="assine">
+          <ul class="assine-lista">
+            <li>
+              <img src="img/check-icon.png" alt="check icon">
+              <span>Desconto Máximo Aplicado</span>
+            </li>
+            <li>
+              <img src="img/check-icon.png" alt="check icon">
+              <span>Entrega Automática em sua Casa</span>
+            </li>
+            <li>
+              <img src="img/check-icon.png" alt="check icon">
+              <span>Menor Preço Garantido / Sem Reajustes</span>
+            </li>
+            <li>
+              <img src="img/check-icon.png" alt="check icon">
+              <span>Cancele quando quiser / Sem Taxas</span>
+            </li>
+          </ul>
+          <div>
+            <a class="assine-btn" onclick="mudarCheck()">
+              <div>
+                <img class="assine-check" src="img/check-icon-mobile.png" alt="Botão assinar">
+                <span><strong>SIM!</strong> Eu quero ser assinante e ganhar DESCONTO!</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="rodape-advertencia">Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença, os resultados podem variar de pessoa para pessoa, esses depoimentos podem ser fictícios, esta informação não constitui aconselhamento médico e não deve ser considerada como tal, consulte o seu médico antes de modificar o seu regime médico regular. Este é um advertorial e não um artigo de notícia ou blog. Produto dispensado da obrigatoriedade de registro conforme RDC 27/2012</p>
+        </div>
+        <div class="rodape-logo col-sm-4">
+          <img src="img/logo_footer-DoutorNature.svg" alt="Logo rodapé">
+        </div>
+        <div class="rodape-direitos col-sm-8">
+          <p class="rodape-advertencia">© 2022 Doutor Nature - Todos os Direitos Reservados - Política de Privacidade | Termos de Uso</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
